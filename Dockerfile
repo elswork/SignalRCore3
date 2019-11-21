@@ -1,3 +1,4 @@
+ARG BASEIMAGE=mcr.microsoft.com/dotnet/core/aspnet:3.0-buster-slim
 FROM ${BASEIMAGE} AS base
 WORKDIR /app
 EXPOSE 80
